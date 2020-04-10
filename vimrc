@@ -34,6 +34,10 @@ Plugin 'itchyny/lightline.vim'
 Plugin 'junegunn/fzf'
 Plugin 'junegunn/fzf.vim'
 
+" Nerdtree
+Plugin 'preservim/nerdtree'
+
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -50,8 +54,8 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 " tab settings
-:set tabstop=4
-:set shiftwidth=4
-:set expandtab
-:set shell=/bin/bash
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set shell=/bin/bash
 set laststatus=2
