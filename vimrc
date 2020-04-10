@@ -59,3 +59,4 @@ set shiftwidth=4
 set expandtab
 set shell=/bin/bash
 set laststatus=2
+map <C-n> :NERDTreeToggle<CR>
