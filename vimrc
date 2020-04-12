@@ -37,6 +37,8 @@ Plugin 'junegunn/fzf.vim'
 " Nerdtree
 Plugin 'preservim/nerdtree'
 
+" You Complete me
+Plugin 'ycm-core/YouCompleteMe'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
