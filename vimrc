@@ -30,15 +30,29 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " lighttine
 Plugin 'itchyny/lightline.vim'
 
-" fuzzy find
+" fuzzy find, searching for files
 Plugin 'junegunn/fzf'
 Plugin 'junegunn/fzf.vim'
 
-" Nerdtree
+" Nerdtree, navigation
 Plugin 'preservim/nerdtree'
 
-" You Complete me
+" You Complete me, for auto complete
 Plugin 'ycm-core/YouCompleteMe'
+
+" Auto pairs, for automatically creating brackets, quotes etc..
+Plugin 'jiangmiao/auto-pairs'
+" NERD Commenter, for commenting lines of code ide style
+Plugin 'preservim/nerdcommenter'
+
+" vim-surround, for sournding text with quotes, etc...
+Plugin 'tpope/vim-surround'
+
+" vim-gutter, for git gutter info
+Plugin 'airblade/vim-gitgutter'
+
+" Terminus for better terminal intergration with vim
+Plugin 'wincent/terminus'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
