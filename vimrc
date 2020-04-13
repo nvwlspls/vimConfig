@@ -56,7 +56,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'wincent/terminus'
 
 " Project manager plugin
-Plugin 'amiorin/vim-project'
+" Plugin 'amiorin/vim-project'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -74,13 +74,15 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 " settings for vim-project
-set rtp+=~/.vim/bundle/vim-project/
-call project#rc('~/Repos')
+"set rtp+=~/.vim/bundle/vim-project/
+"call project#rc('~/Repos')
 
-Project 'scratch'
+"Project 'scratch'
 
-Project  '/home/wayne/.vim'                             ,'vimfiles'
-File     '/home/wayne/.vim/vimrc'                       , 'vimrc'
+"Project  '/home/wayne/.vim'                             ,'vimfiles'
+"File     '/home/wayne/.vim/vimrc'                       , 'vimrc'
+
+"Project 'covidTracker'
 
 " tab settings
 set tabstop=4
