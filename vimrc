@@ -1,4 +1,5 @@
 set nocompatible              " be iMproved, required
+
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
@@ -54,6 +55,9 @@ Plugin 'airblade/vim-gitgutter'
 " Terminus for better terminal intergration with vim
 Plugin 'wincent/terminus'
 
+" Project manager plugin
+Plugin 'amiorin/vim-project'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -68,6 +72,15 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
+
+" settings for vim-project
+set rtp+=~/.vim/bundle/vim-project/
+call project#rc('~/Repos')
+
+Project 'scratch'
+
+Project  '/home/wayne/.vim'                             ,'vimfiles'
+File     '/home/wayne/.vim/vimrc'                       , 'vimrc'
 
 " tab settings
 set tabstop=4
