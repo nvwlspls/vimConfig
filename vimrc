@@ -60,7 +60,7 @@ Plugin 'wincent/terminus'
 Plugin 'mhinz/vim-startify'
 
 " Linter
-Plugin 'dense-analysis/ale'
+"Plugin 'dense-analysis/ale'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
