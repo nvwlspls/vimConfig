@@ -88,3 +88,5 @@ set number
 " my key mappings
 map <C-n> :NERDTreeToggle<CR>
 map ; :Files ~/<CR>
+" ctrl + n to open nerdtree
+map <C-n> :NERDTreeToggle<CR>
